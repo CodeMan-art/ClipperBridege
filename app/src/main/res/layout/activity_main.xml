@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF6465a5"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/clipper_bridge_tips_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="TIPS:"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/clipper_bridge_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:lineSpacingExtra="8dp"
+        android:padding="10dp"
+        android:text="@string/app_des"
+        android:textColor="@color/colorWhite"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/clipper_bridge_tips_title" />
+
+    <TextView
+        android:id="@+id/clipper_bridge_clipper_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="剪切板:"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@id/clipper_bridge_tips_title"
+        app:layout_constraintTop_toBottomOf="@id/clipper_bridge_des" />
+
+    <TextView
+        android:id="@+id/clipper_bridge_clipper_broad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="8dp"
+        android:padding="10dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="@id/clipper_bridge_des"
+        app:layout_constraintTop_toBottomOf="@id/clipper_bridge_clipper_title" />
+</androidx.constraintlayout.widget.ConstraintLayout>

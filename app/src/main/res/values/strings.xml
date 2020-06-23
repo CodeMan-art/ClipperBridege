@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ClipperBridge</string>
+    <string name="app_des">1. 脚本执行时传入参数为pc--->>>android传输数据 参数添加\"\"\n2. 脚本执行时不传参数为android--->>>pc传输数据\n3. 当android-->>>pc传输数据时，将内容复制好，并将Clipper.apk打开置于前台\n4. 第一次调用脚本时，call 任意数据，则会自动安装apk"
+    </string>
+</resources>
